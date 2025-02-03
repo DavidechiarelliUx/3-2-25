@@ -1,11 +1,7 @@
+const ButtonComponents = (props) => {
+   return (
+      <button style={{backgroundColor:props.bgColor, padding:props.padding}}>{props.description}</button>
+   )
+}
 
-class Button {
- render() {
-    return (
-       <button>
-        Ciao
-       </button>
-    )
-}
-}
-export default Button;
+export default ButtonComponents;
